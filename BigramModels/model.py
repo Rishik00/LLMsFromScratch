@@ -16,7 +16,8 @@ class BigramLanguageModel(nn.Module):
         super().__init__()
 
         self.embedding_table = nn.Embedding(vocab_size, vocab_size)
-    
+
+
     def forward(self, idx, targets=None):
         logits = self.embedding_table(idx)
 

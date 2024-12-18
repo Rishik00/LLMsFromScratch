@@ -6,7 +6,7 @@ block_size = 8  # Maximum context length for predictions
 vocab_size = 65
 
 # Load data
-file_path = r'C:\Users\sridh\OneDrive\Desktop\webdev\GPTFromScratch\data\input.txt'
+file_path = r'C:\Users\sridh\OneDrive\Desktop\webdev\LLMsFromScratch\BigramModels\data\input.txt'
 with open(file_path, 'r', encoding='utf-8') as f:
     data = f.read()
 
