@@ -14,7 +14,6 @@ vocab_size = 65
 class BigramLanguageModel(nn.Module):
     def __init__(self, vocab_size):
         super().__init__()
-
         self.embedding_table = nn.Embedding(vocab_size, vocab_size)
 
 
